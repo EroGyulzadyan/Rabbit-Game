@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.containerValues{
+    width: 100%;
+    height: 10vh;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(119, 175, 133);
+}
+
+.xaxadasht{
+    width: 100%;
+    height: 90vh;
+    box-sizing: border-box;
+    border: 5px solid green;
+    position: relative;
+    background-image: url("../images/background.png");
+}
+
+.heros{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url("../images/heros.png");
+    border: 1px solid black;
+    border-radius: 90%;
+    position: absolute;
+    z-index: 1;
+    transform: rotateY(0deg);
+}
+
+.mrginkar{
+    display: absolute;
+    right: 20px;
+
+}
